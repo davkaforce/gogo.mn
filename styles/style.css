@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+}
+.banner-background {
+  background: linear-gradient(180deg, #fff, #f7f7f7);
+  flex-direction: row;
+}
+
+.container {
+  max-width: 1200px;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+.part1 {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.card1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-between;
+  background: linear-gradient(
+    90deg,
+    #f4f4f4 7%,
+    hsla(0, 0%, 100%, 0.220348) 17%
+  );
+  padding: 20px;
+  border-radius: 5px;
+}
+.card1 .p {
+  margin-bottom: 30px;
+}
+
+.card2 {
+  height: 350px;
+  width: 50%;
+  background-image: url("/images/image4.jpeg");
+  background-size: 120%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0, 0.1);
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.card2:hover {
+  background-size: 130%;
+  transition: 0.2s;
+  color: rgb(0, 0, 0, 1);
+  filter: brightness(70%);
+  color: white;
+}
+
+.category_style {
+  background: linear-gradient(90deg, #c40097, #d6710b);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.part2 {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+
+.card1b {
+  width: 25%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.card1b_img {
+  background-image: url("/images/image2.jpeg");
+  height: 175px;
+  width: 100%;
+  background-size: 100%;
+  background-position: center;
+  transition: 0.4s;
+}
+
+.card1b_img:hover {
+  background-size: 130%;
+  transition: 0.2s;
+  color: rgb(0, 0, 0, 1);
+}
+
+.part3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.part3_cards {
+  display: flex;
+  gap: 15px;
+  border-radius: 5px;
+}
+
+.card1c {
+  height: 235px;
+  width: 17%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("/images/image6.jpg");
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: white;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.card1c_img {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+  transform: scale(0.75);
+}
+
+.card1c_text {
+  padding-bottom: 10px;
+  color: white;
+}
+
+.card1c_icon {
+  transform: 0.75;
+}
+
+.part4 {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.main_cards {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 78.5px;
+  gap: 55.5px;
+}
+
+.side_cards {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.side_cards span {
+  padding-bottom: 60px;
+}
+
+.right_card1d {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.right_card1d_img {
+  background-image: url("/images/image2.jpeg");
+  height: 175px;
+  width: 100%;
+  background-size: 100%;
+  background-position: center;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.right_card1d_img:hover {
+  background-size: 130%;
+  transition: 0.2s;
+  color: rgb(0, 0, 0, 1);
+}
+
+.main_cards_card1 {
+  display: flex;
+  gap: 10px;
+}
+
+.main_cards_card1a {
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #fefefe 0%, #ffffff5b 100%);
+  width: 100%;
+  border-radius: 5px;
+}
+
+.main_cards_card1b {
+  height: 175px;
+  width: 50%;
+  background-image: url("/images/image4.jpeg");
+  background-size: 120%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0, 0.1);
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.main_cards_card1a h1 {
+  font-size: 20px;
+}
+
+.main_cards_card1a h1:hover {
+  transform: scale(101%);
+}
+
+:root {
+  --primary: var(#aa97975b);
+  --secondary: var(#f4f4f4);
+  border-radius: 5px;
+}
