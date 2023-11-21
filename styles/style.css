@@ -5,7 +5,35 @@
 }
 .header {
   display: flex;
+  justify-content: space-between;
+  margin: auto;
+  height: 88.91px;
+  align-items: center;
+  position: relative;
 }
+.header img {
+  height: 35px;
+}
+
+.navbar {
+  display: flex;
+  gap: 15px;
+}
+
+.dropdowntest {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdowntest:hover .dropdown {
+  display: block;
+}
+
+.dropdown {
+  position: absolute;
+  display: none;
+}
+
 .banner-background {
   background: linear-gradient(180deg, #fff, #f7f7f7);
   flex-direction: row;
